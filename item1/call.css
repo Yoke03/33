@@ -1,0 +1,50 @@
+.last{
+    width: 90%;
+    margin: 90px auto;
+    background-color:#d3d3d3;
+    color: black;
+    text-align: center;
+    line-height:80px;
+}
+#logo img{
+    width:130px ;
+    height: 130px;
+    margin:5px auto;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: 4px solid rosybrown;
+}
+h2{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    font-size: larger;
+    font-family:幼圆;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: larger;
+}
+NAV a:hover{
+    color: red;
+}
+NAV a{
+    display: inline;
+    color:black;
+    padding: 0 20px;
+}
+#sm{
+    background-color:lightpink ;
+}
+h2{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    font-size: larger;
+    font-family:幼圆;
+    color: dodgerblue;
+    padding: 20px;
+    text-align: left ;
+}

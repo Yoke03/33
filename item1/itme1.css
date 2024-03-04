@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background2.jpg");
+    background-repeat: repeat-x;
+    text-align: left ;
+}
+
+#Header {
+    color: dodgerblue;
+    padding: 20px;
+    text-align: left ;
+
+}
+#logo img{
+    width:120px ;
+    height: 120px;
+    margin-top:5px;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: 4px solid rosybrown;
+}
+h2{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    font-size: larger;
+    font-family:幼圆;
+}
+nav{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: larger;
+}
+NAV a:hover{
+    color: red;
+}
+NAV a{
+    display: inline;
+    color:black;
+    padding: 0 20px;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+.container img {
+    width: 350px;
+    height: 400px;
+    margin-left: 100px;
+}
+.text{
+    margin-left: 20px;
+}
+.dis
+{   margin: auto;
+    width: 1000px;
+    height: 300px;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+.dis img{
+    display: inline-block;
+    height: 100%;
+}
+.area {
+    background-image: url("images/background.jpg");
+    background-repeat: repeat-x;
+     height:500px;
+    color: black;
+
+ }
+.area_left {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 20%;
+    height:90%;
+    background: white;
+
+  }
+.area_center {
+
+    float: left;
+    margin-top: 25px;
+
+    width: 20%;
+    height:90%;
+    margin-left: 10%;
+    background: white;
+   }
+.area_right {
+
+        float: left;
+        margin-top: 25px;
+
+        width: 20%;
+        height:90%;
+        margin-left: 10%;
+        background: white;
+    }
+.area img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.area p{
+    text-indent: 2em;
+    margin-top: 40px;
+    font-size: large;
+}
+.last{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#d3d3d3;
+    color: black;
+    text-align: center;
+}
+.foot{
+    background-color: #d3d3d3;
+    background-repeat: repeat-x;
+    text-align: center;
+    color:black;
+
+    margin: 0;
+    padding: 0;
+
+}
+#topmenu{
+
+    width:720px;
+    height: 35px;
+    line-height: 35px;
+    margin:10px auto;
+
+}
+
+#topmenu ul{
+    list-style:none;
+    height: 35px;
+    display:flex;
+
+}
+
+#topmenu ul li{
+    margin-right: 35px;
+
+    line-height: 35px;
+    text-align: center;
+}
